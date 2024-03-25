@@ -4,7 +4,7 @@ curl --request POST \
   --header 'Content-Type: application/x-ndjson' \
   --data '
 {"index":{"_index":"cart","_id":2}}
-{"id":2,"title":"Samsung Galaxy S21","category":"Electronics","price":89900,"formatted_price":"$899.00 USD","description":"Samsung Galaxy S21, 128 GB","release_date":"2021-01-14T00:00:00.000Z","quantity":50}
+{"id":2,"title":"Samsung Galaxy S21","category":"Electronics","price":89900,"formatted_price":"$899.00 USD","description":"Samsung Galaxy S21, 128 GB","quantity":50}
 {"index":{"_index":"cart","_id":3}}
 {"id":3,"title":"Macbook Pro","category":"Electronics","price":199900,"formatted_price":"$1999.00 USD","description":"Macbook Pro 13-inch, M1 chip, 256 GB SSD","quantity":30}
 {"index":{"_index":"cart","_id":4}}
